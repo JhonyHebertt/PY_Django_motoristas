@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+*.sqlite3
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+static/
+*.log
+
+# VSCode
+.vscode/
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# Migrations (opcional, se não quiser versionar)
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+#sem imagens
+*.jpg
+*.png
