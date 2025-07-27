@@ -17,7 +17,7 @@ COPY . /app/
 RUN chmod +x /app/entrypoint.sh
 
 # Coleta arquivos estáticos
-RUN python manage.py collectstatic --noinput
+# RUN python manage.py collectstatic --noinput
 
 ENTRYPOINT ["/app/entrypoint.sh"]
 CMD ["gunicorn", "motorista_project.wsgi:application", "--bind", "0.0.0.0:8000"]
